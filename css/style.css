@@ -402,6 +402,7 @@ ul {
 }
 .footer-list-link {
   display: flex;
+  gap: 16px;
 }
 .social-media-hero {
   font-style: normal;
