@@ -215,7 +215,10 @@ img {
 .item-our-team-box {
   width: 264px;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229,
+    0px 1px 6px 0px #2e2f4214;
 }
+
 .button-hero-h {
   border-radius: 4px;
   background: var(--buttons-color);
@@ -255,6 +258,13 @@ ul {
 .button-h1:focus {
   background: var(--hf-buttons-color);
 }
+.list-future-svg {
+  display: flex;
+  gap: 20px;
+}
+.future-svg {
+  margin: 20px 102px;
+}
 .futures-name {
   margin-bottom: 8px;
   font-size: 20px;
@@ -266,6 +276,23 @@ ul {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
+}
+.btt-sprite-our-team {
+  width: 40px;
+  height: 40px;
+  border: none;
+}
+.our-team-link {
+  display: block;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  padding: 12px 13px;
+}
+.our-team-svg-item {
+}
+.our-team-link:hover,
+.our-team-link:focus {
+  background-color: #404bbf;
 }
 .wawd {
   margin-bottom: 72px;
@@ -284,6 +311,10 @@ ul {
 }
 .background-li-our-team {
   background: #ffffff;
+}
+.svg-our-team {
+  display: flex;
+  gap: 24px;
 }
 .our-team-title {
   font-size: 36px;
@@ -309,6 +340,7 @@ ul {
   line-height: calc(24 / 16);
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .mail-main {
@@ -334,7 +366,61 @@ ul {
   max-width: 264px;
   margin-top: 16px;
 }
-
+.customers {
+  align-self: center;
+}
+.customers-hero {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40px / 36px);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.footer {
+}
+.footer-div-link {
+  padding-top: 100px;
+  padding-bottom: 130px;
+  margin-left: 120px;
+}
+.item-list-customers {
+  margin-top: 70px;
+  margin-bottom: 120px;
+  padding: 16px 32px;
+  border: 2px solid #8e8f99;
+}
+.footer-div-logo {
+  padding-top: 100px;
+  padding-left: 156px;
+  padding-bottom: 100px;
+}
+.footer-list-link {
+  display: flex;
+}
+.social-media-hero {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24px / 16px);
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.item-list-div-footer {
+  display: flex;
+}
+.footer-item-link {
+  display: block;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 13px;
+}
 /*----------- portfolio -----------*/
 
 .box-list-portfolio-btt {
